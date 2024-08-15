@@ -107,4 +107,7 @@ Preguntas:
 - Facilita la modularidad al permitir que los módulos dependan de servicios y componentes sin necesidad de conocer cómo se crean esos servicios. Los módulos solo interactúan con interfaces o contratos, no con implementaciones concretas.
 
 ##### ¿Por qué es crucial validar los datos de entrada en una aplicación que maneja transacciones financieras?
-- 
+- Es crucial porque se puede introducir codigo malicioso que afecte el desempeño denuestra aplicacion asi como manejar las peticiones que se realizan a estos 
+
+##### ¿Qué podría suceder si un decorador está mal colocado o si no se aplican los pipes correctamente?
+- Lo principal es que se presentaran errores de sintaxis, perdida de la funcionalidad, dificultades en la depuracion y no se podrian prevenir errores en la aplicaciòn
